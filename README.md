@@ -12,7 +12,7 @@
 
 [![Versi terbaru](https://img.shields.io/github/v/release/asammanis89/RAON-KASIR-PUBLIC?style=for-the-badge&color=F26A0F&label=versi)](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest)
 [![Unduhan](https://img.shields.io/github/downloads/asammanis89/RAON-KASIR-PUBLIC/total?style=for-the-badge&color=1a1a1f&label=diunduh)](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases)
-![Android](https://img.shields.io/badge/Android-6.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Android](https://img.shields.io/badge/platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Gratis](https://img.shields.io/badge/harga-gratis-F26A0F?style=for-the-badge)
 
 **Aplikasi kasir untuk warung, toko kecil, dan usaha rumahan. Dipasang sekali, dipakai tanpa internet.**
