@@ -29,7 +29,7 @@
 
 ## Kenapa RAON
 
-Banyak aplikasi kasir meminta akun, langganan bulanan, atau menampilkan iklan di layar yang dipakai pelanggan. RAON dibuat untuk kebalikannya: buka, ketuk produk, terima uang, selesai. Semua data tersimpan di HP-mu sendiri.
+Banyak aplikasi kasir meminta akun, langganan bulanan, atau menampilkan iklan di layar yang dipakai pelanggan. RAON dibuat untuk kebalikannya: buka, ketuk produk, terima uang, selesai. Semua data tersimpan di HPmu sendiri.
 
 <img src="docs/img/alur.png" alt="Alur penjualan: ketuk produk, tekan Bayar, kembalian tampil" width="100%">
 
