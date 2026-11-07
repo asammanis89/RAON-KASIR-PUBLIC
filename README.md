@@ -17,7 +17,11 @@
 
 **Aplikasi kasir untuk warung, toko kecil, dan usaha rumahan. Dipasang sekali, dipakai tanpa internet.**
 
-[Unduh](#unduh-dan-pasang) · [Fitur](#fitur) · [Cara pakai](#cara-pakai) · [Tanya jawab](#tanya-jawab)
+[Unduh](#unduh-dan-pasang) · [Tampilan](#tampilan-di-hp-tablet-dan-laptop) · [Fitur](#fitur) · [Cara pakai](#cara-pakai) · [Tanya jawab](#tanya-jawab)
+
+<br>
+
+<img src="docs/layar/perangkat-gelap.png" alt="RAON di laptop, tablet, dan HP" width="100%">
 
 </div>
 
@@ -62,11 +66,61 @@ Yang lebih rinci:
 
 ---
 
-## Dua tema
+## Tampilan di HP, tablet, dan laptop
 
-<img src="docs/img/tema.png" alt="Tema gelap dan tema terang" width="100%">
+RAON mengikuti ukuran layar. Di HP isinya memenuhi layar. Di tablet dan laptop (misalnya Chromebook atau emulator) isinya dibatasi selebar 960 dan di tengah, supaya daftar tidak melebar sampai sulit dibaca.
+
+> Semua gambar di bagian ini dipotret langsung dari aplikasi yang berjalan dengan data contoh, bukan dari mockup desain. Dipotret di lingkungan uji, jadi font dan status bar di HP-mu bisa sedikit berbeda.
+
+### Kasir
+
+Ketuk produk, keranjang terisi, tombol **Tahan** dan **Bayar** selalu terlihat.
+
+<img src="docs/layar/halaman-kasir.png" alt="Halaman Kasir di laptop, tablet, dan HP" width="100%">
+
+### Pembayaran
+
+Total besar di atas, pilihan Tunai, QRIS, atau Transfer, nominal cepat, dan kembalian langsung dihitung.
+
+<img src="docs/layar/halaman-bayar.png" alt="Halaman Pembayaran di laptop, tablet, dan HP" width="100%">
+
+### Produk
+
+Cari, tambah, ubah, dan lihat stok. Produk yang hampir habis diberi tanda.
+
+<img src="docs/layar/halaman-produk.png" alt="Halaman Produk di laptop, tablet, dan HP" width="100%">
+
+### Laporan
+
+Omzet, laba, jumlah transaksi, rincian per metode bayar, produk terlaris, dan riwayat. Ada tombol **Tutup Kasir** untuk mencocokkan uang di laci.
+
+<img src="docs/layar/halaman-laporan.png" alt="Halaman Laporan di laptop, tablet, dan HP" width="100%">
+
+### Pengaturan
+
+Nama toko, alamat, pesan di struk, mode gelap, gambar QRIS, printer, cadangan, dan cek pembaruan.
+
+<img src="docs/layar/halaman-pengaturan.png" alt="Halaman Pengaturan di laptop, tablet, dan HP" width="100%">
+
+### Tema gelap dan terang
 
 Tema gelap jadi bawaan. Ganti ke tema terang dari Pengaturan kalau layarmu sering kena cahaya.
+
+<img src="docs/layar/perangkat-terang.png" alt="Tema terang di laptop, tablet, dan HP" width="100%">
+
+### Semua halaman di HP
+
+<img src="docs/layar/ponsel-gelap.png" alt="Lima halaman RAON di HP, tema gelap" width="100%">
+
+<img src="docs/layar/ponsel-terang.png" alt="Lima halaman RAON di HP, tema terang" width="100%">
+
+### Panduan saat pertama dibuka
+
+Empat kartu singkat. Kartu terakhir berisi tombol saweran DANA, dan tombol yang sama ada di Pengaturan.
+
+<div align="center">
+<img src="docs/layar/panduan.png" alt="Panduan awal RAON" width="70%">
+</div>
 
 ---
 
