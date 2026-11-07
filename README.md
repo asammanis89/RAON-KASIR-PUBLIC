@@ -21,7 +21,7 @@
 
 <br>
 
-<img src="docs/layar/perangkat-gelap.png" alt="RAON di laptop, tablet, dan HP" width="100%">
+<img src="docs/layar/perangkat-terang.png" alt="RAON di laptop, tablet, dan HP" width="100%">
 
 </div>
 
@@ -68,13 +68,19 @@ Yang lebih rinci:
 
 ## Tampilan di HP, tablet, dan laptop
 
-RAON mengikuti ukuran layar. Di HP isinya memenuhi layar. Di tablet dan laptop (misalnya Chromebook atau emulator) isinya dibatasi selebar 960 dan di tengah, supaya daftar tidak melebar sampai sulit dibaca.
+RAON mengikuti ukuran layar. Di HP menunya ada di bilah bawah, dengan tombol **Kasir** oranye di tengah. Di tablet dan laptop (misalnya Chromebook atau emulator) menunya pindah ke samping, daftar dibatasi lebarnya supaya tetap enak dibaca, dan layar Kasir menampilkan keranjang di sisi kanan.
 
 > Semua gambar di bagian ini dipotret langsung dari aplikasi yang berjalan dengan data contoh, bukan dari mockup desain. Dipotret di lingkungan uji, jadi font dan status bar di HP-mu bisa sedikit berbeda.
 
+### Beranda
+
+Omzet, laba, dan jumlah transaksi hari ini sekali lihat, delapan pintasan (Kasir, Produk, Laporan, Tahan, Item Bebas, Tutup Kasir, Cadangan, Pengaturan), peringatan stok hampir habis, dan transaksi terakhir.
+
+<img src="docs/layar/halaman-beranda.png" alt="Beranda di laptop, tablet, dan HP" width="100%">
+
 ### Kasir
 
-Ketuk produk, keranjang terisi, tombol **Tahan** dan **Bayar** selalu terlihat.
+Ketuk produk, keranjang terisi, tombol **Tahan** dan **Bayar** selalu terlihat. Produk yang sudah di keranjang diberi bingkai tebal dan jumlahnya.
 
 <img src="docs/layar/halaman-kasir.png" alt="Halaman Kasir di laptop, tablet, dan HP" width="100%">
 
@@ -102,17 +108,17 @@ Nama toko, alamat, pesan di struk, mode gelap, gambar QRIS, printer, cadangan, d
 
 <img src="docs/layar/halaman-pengaturan.png" alt="Halaman Pengaturan di laptop, tablet, dan HP" width="100%">
 
-### Tema gelap dan terang
+### Tema terang dan gelap
 
-Tema gelap jadi bawaan. Ganti ke tema terang dari Pengaturan kalau layarmu sering kena cahaya.
+Tema terang jadi bawaan, krem hangat yang nyaman dipakai seharian. Kalau lebih suka gelap, nyalakan Mode gelap di Pengaturan.
 
-<img src="docs/layar/perangkat-terang.png" alt="Tema terang di laptop, tablet, dan HP" width="100%">
+<img src="docs/layar/perangkat-gelap.png" alt="Tema gelap di laptop, tablet, dan HP" width="100%">
 
 ### Semua halaman di HP
 
-<img src="docs/layar/ponsel-gelap.png" alt="Lima halaman RAON di HP, tema gelap" width="100%">
+<img src="docs/layar/ponsel-gelap.png" alt="Enam halaman RAON di HP, tema gelap" width="100%">
 
-<img src="docs/layar/ponsel-terang.png" alt="Lima halaman RAON di HP, tema terang" width="100%">
+<img src="docs/layar/ponsel-terang.png" alt="Enam halaman RAON di HP, tema terang" width="100%">
 
 ### Panduan saat pertama dibuka
 
