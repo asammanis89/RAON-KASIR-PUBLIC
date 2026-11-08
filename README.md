@@ -62,6 +62,11 @@ Yang lebih rinci:
 - **Keranjang:** diskon dalam rupiah atau persen, Item Bebas untuk barang yang belum terdaftar, dan Tahan untuk menyimpan transaksi sementara.
 - **Koreksi:** transaksi yang salah bisa dibatalkan. Omzet turun dan stok barangnya kembali.
 - **Stok:** boleh diisi, boleh dikosongkan kalau tidak perlu dilacak. Barang yang hampir habis diberi tanda.
+- **Laporan sesuai kebutuhan:** pilih Hari ini, Kemarin, 7 hari, Bulan ini, Bulan lalu, atau rentang tanggal sendiri; saring per metode bayar; lihat omzet, laba kotor, pengeluaran, laba bersih, rata-rata, jam paling ramai, penjualan per kategori, dan produk terjual. Bagikan sebagai PDF atau CSV untuk Excel.
+- **Pengeluaran:** catat es batu, listrik, plastik, atau biaya harian lain; laba bersih otomatis berkurang.
+- **Utang pelanggan:** pilih metode Utang dengan nama pelanggan, pantau di Piutang, lalu lunasi lewat tunai, QRIS, atau transfer. Struk menyebut nama dan status utang.
+- **Tutup Kasir:** kas awal, penjualan tunai, utang yang dilunasi tunai, dan pengeluaran dihitung jadi uang yang seharusnya ada di laci, lalu dibandingkan dengan hasil hitungmu.
+- **Pengingat:** notifikasi untuk tutup kasir tiap hari, stok hampir habis, utang yang menunggak, dan cadangan data. Dinyalakan sendiri di Pengaturan, semuanya mati secara bawaan.
 - **Data contoh:** 20 produk contoh dengan satu ketukan untuk mencoba, dan bisa dihapus tanpa menyentuh produkmu.
 
 ---
@@ -74,7 +79,7 @@ RAON mengikuti ukuran layar. Di HP menunya ada di bilah bawah dengan lima tab da
 
 ### Beranda
 
-Omzet, laba, dan jumlah transaksi hari ini sekali lihat, tombol Kasir dan Laporan, enam pintasan (Produk, Tahan, Item Bebas, Tutup Kasir, Cadangan, Pengaturan), peringatan stok hampir habis, dan transaksi terakhir.
+Omzet, laba bersih, dan jumlah transaksi hari ini sekali lihat, tombol Kasir dan Laporan, delapan pintasan (Produk, Tahan, Item Bebas, Tutup Kasir, Pengeluaran, Piutang, Cadangan, Pengaturan), peringatan stok hampir habis dan utang belum lunas, dan transaksi terakhir.
 
 <img src="docs/layar/halaman-beranda.png" alt="Beranda di laptop, tablet, dan HP" width="100%">
 
