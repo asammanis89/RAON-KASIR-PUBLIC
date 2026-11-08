@@ -103,7 +103,7 @@ Cari, tambah, ubah, dan lihat stok. Produk yang hampir habis diberi tanda.
 
 ### Laporan
 
-Omzet, laba, jumlah transaksi, rincian per metode bayar, produk terlaris, dan riwayat. Ada tombol **Tutup Kasir** untuk mencocokkan uang di laci.
+Pilih periode (atau rentang tanggal sendiri) dan metode bayar, lalu lihat omzet, laba kotor dan bersih, pengeluaran, jam ramai, rincian per metode dan kategori, produk terjual, dan riwayat. Tombol di kanan atas membagikan PDF atau CSV. **Tutup Kasir** mencocokkan uang di laci.
 
 <img src="docs/layar/halaman-laporan.png" alt="Halaman Laporan di laptop, tablet, dan HP" width="100%">
 
