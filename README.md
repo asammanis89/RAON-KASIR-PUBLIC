@@ -68,19 +68,19 @@ Yang lebih rinci:
 
 ## Tampilan di HP, tablet, dan laptop
 
-RAON mengikuti ukuran layar. Di HP menunya ada di bilah bawah, dengan tombol **Kasir** oranye di tengah. Di tablet dan laptop (misalnya Chromebook atau emulator) menunya pindah ke samping, daftar dibatasi lebarnya supaya tetap enak dibaca, dan layar Kasir menampilkan keranjang di sisi kanan.
+RAON mengikuti ukuran layar. Di HP menunya ada di bilah bawah dengan lima tab dan penanda hijau di tab yang aktif. Di tablet dan laptop (misalnya Chromebook atau emulator) menunya pindah ke samping, daftar dibatasi lebarnya supaya tetap enak dibaca, dan layar Kasir menampilkan keranjang di sisi kanan.
 
 > Semua gambar di bagian ini dipotret langsung dari aplikasi yang berjalan dengan data contoh, bukan dari mockup desain. Dipotret di lingkungan uji, jadi font dan status bar di HP-mu bisa sedikit berbeda.
 
 ### Beranda
 
-Omzet, laba, dan jumlah transaksi hari ini sekali lihat, delapan pintasan (Kasir, Produk, Laporan, Tahan, Item Bebas, Tutup Kasir, Cadangan, Pengaturan), peringatan stok hampir habis, dan transaksi terakhir.
+Omzet, laba, dan jumlah transaksi hari ini sekali lihat, tombol Kasir dan Laporan, enam pintasan (Produk, Tahan, Item Bebas, Tutup Kasir, Cadangan, Pengaturan), peringatan stok hampir habis, dan transaksi terakhir.
 
 <img src="docs/layar/halaman-beranda.png" alt="Beranda di laptop, tablet, dan HP" width="100%">
 
 ### Kasir
 
-Ketuk produk, keranjang terisi, tombol **Tahan** dan **Bayar** selalu terlihat. Produk yang sudah di keranjang diberi bingkai tebal dan jumlahnya.
+Ketuk produk, keranjang terisi, tombol **Tahan** dan **Bayar** selalu terlihat. Tiap produk punya huruf awal berwarna, dan yang sudah di keranjang diberi bingkai hijau beserta jumlahnya.
 
 <img src="docs/layar/halaman-kasir.png" alt="Halaman Kasir di laptop, tablet, dan HP" width="100%">
 
@@ -110,7 +110,7 @@ Nama toko, alamat, pesan di struk, mode gelap, gambar QRIS, printer, cadangan, d
 
 ### Tema terang dan gelap
 
-Tema terang jadi bawaan, krem hangat yang nyaman dipakai seharian. Kalau lebih suka gelap, nyalakan Mode gelap di Pengaturan.
+Tema terang jadi bawaan: latar sage lembut dengan siluet hijau dan oranye, kartu putih, dan tombol oranye. Nyaman dipakai seharian. Kalau lebih suka gelap, nyalakan Mode gelap di Pengaturan.
 
 <img src="docs/layar/perangkat-gelap.png" alt="Tema gelap di laptop, tablet, dan HP" width="100%">
 
