@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/img/banner.png" alt="RAON, kasir Android gratis, offline, tanpa login" width="100%">
+<img src="docs/img/banner.png" alt="RAON, kasir gratis, offline, tanpa login" width="100%">
 
 <br>
 
@@ -13,9 +13,10 @@
 [![Versi terbaru](https://img.shields.io/github/v/release/asammanis89/RAON-KASIR-PUBLIC?style=for-the-badge&color=F26A0F&label=versi)](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest)
 [![Unduhan](https://img.shields.io/github/downloads/asammanis89/RAON-KASIR-PUBLIC/total?style=for-the-badge&color=1a1a1f&label=diunduh)](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases)
 ![Android](https://img.shields.io/badge/platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Windows](https://img.shields.io/badge/platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 ![Gratis](https://img.shields.io/badge/harga-gratis-F26A0F?style=for-the-badge)
 
-**Aplikasi kasir untuk warung, toko kecil, dan usaha rumahan. Dipasang sekali, dipakai tanpa internet.**
+**Aplikasi kasir untuk warung, toko kecil, dan usaha rumahan. Dipasang sekali, dipakai tanpa internet. Untuk HP Android dan laptop Windows.**
 
 [Unduh](#unduh-dan-pasang) · [Tampilan](#tampilan-di-hp-tablet-dan-laptop) · [Fitur](#fitur) · [Cara pakai](#cara-pakai) · [Tanya jawab](#tanya-jawab)
 
@@ -29,7 +30,7 @@
 
 ## Kenapa RAON
 
-Banyak aplikasi kasir meminta akun, langganan bulanan, atau menampilkan iklan di layar yang dipakai pelanggan. RAON dibuat untuk kebalikannya: buka, ketuk produk, terima uang, selesai. Semua data tersimpan di HPmu sendiri.
+Banyak aplikasi kasir meminta akun, langganan bulanan, atau menampilkan iklan di layar yang dipakai pelanggan. RAON dibuat untuk kebalikannya: buka, ketuk produk, terima uang, selesai. Semua data tersimpan di perangkatmu sendiri.
 
 <img src="docs/img/alur.png" alt="Alur penjualan: ketuk produk, tekan Bayar, kembalian tampil" width="100%">
 
@@ -65,8 +66,16 @@ Yang lebih rinci:
 - **Laporan sesuai kebutuhan:** pilih Hari ini, Kemarin, 7 hari, Bulan ini, Bulan lalu, atau rentang tanggal sendiri; saring per metode bayar; lihat omzet, laba kotor, pengeluaran, laba bersih, rata-rata, jam paling ramai, penjualan per kategori, dan produk terjual. Bagikan sebagai PDF atau CSV untuk Excel.
 - **Pengeluaran:** catat es batu, listrik, plastik, atau biaya harian lain; laba bersih otomatis berkurang.
 - **Utang pelanggan:** pilih metode Utang dengan nama pelanggan, pantau di Piutang, lalu lunasi lewat tunai, QRIS, atau transfer. Struk menyebut nama dan status utang.
-- **Tutup Kasir:** kas awal, penjualan tunai, utang yang dilunasi tunai, dan pengeluaran dihitung jadi uang yang seharusnya ada di laci, lalu dibandingkan dengan hasil hitungmu.
+- **Tutup Kasir:** kas awal, penjualan tunai, utang yang dilunasi tunai, pengeluaran, dan retur tunai dihitung jadi uang yang seharusnya ada di laci, lalu dibandingkan dengan hasil hitungmu.
 - **Pengingat:** notifikasi untuk tutup kasir tiap hari, stok hampir habis, utang yang menunggak, dan cadangan data. Dinyalakan sendiri di Pengaturan, semuanya mati secara bawaan.
+- **Barcode:** pindai dengan scanner USB atau Bluetooth (di HP maupun laptop), atau dengan kamera HP Android. Barcode yang belum terdaftar diberi tahu, bukan diabaikan.
+- **Riwayat stok dan pembelian:** setiap stok masuk, keluar, koreksi, dan pembatalan tercatat, jadi jumlah di riwayat selalu sama dengan stok. Catat pembelian dari pemasok, dan harga beli ikut terbarui.
+- **Harga grosir:** tulis `10=4500` di form produk, dan harga satuan turun otomatis saat jumlah di keranjang mencapai 10.
+- **Pajak dan biaya layanan:** atur persen pajak (ditambahkan atau sudah termasuk harga) dan biaya layanan di Pengaturan. Omzet dihitung tanpa pajak dan layanan, dan struk memuat rinciannya.
+- **Retur:** kembalikan sebagian barang dari transaksi. Stok bertambah, omzet dan laba berkurang, dan uang kembali tercatat sebagai kas keluar. Transaksi utang yang diretur mengurangi sisa utangnya.
+- **Shift kasir:** buka shift dengan kas awal, tutup dengan hitungan uang di laci, dan lihat selisihnya. Riwayat shift tersimpan.
+- **Poin pelanggan:** isi nama pelanggan saat bayar, poin bertambah sesuai belanja dan berkurang bila transaksi dibatalkan atau diretur. Penukaran poin dicatat di menu Poin.
+- **Akun dan PIN (opsional):** buat akun pemilik dan kasir dengan PIN. Kasir hanya melihat menu penjualan. Salah PIN lima kali mengunci akun lima menit, dan kode pemulihan disediakan bila pemilik lupa PIN. PIN berfungsi sebagai pintu masuk aplikasi, bukan enkripsi data.
 - **Data contoh:** 20 produk contoh dengan satu ketukan untuk mencoba, dan bisa dihapus tanpa menyentuh produkmu.
 
 ---
@@ -75,7 +84,7 @@ Yang lebih rinci:
 
 RAON mengikuti ukuran layar. Di HP menunya ada di bilah bawah dengan lima tab dan penanda hijau di tab yang aktif. Di tablet dan laptop (misalnya Chromebook atau emulator) menunya pindah ke samping, daftar dibatasi lebarnya supaya tetap enak dibaca, dan layar Kasir menampilkan keranjang di sisi kanan.
 
-> Semua gambar di bagian ini dipotret langsung dari aplikasi yang berjalan dengan data contoh, bukan dari mockup desain. Dipotret di lingkungan uji, jadi font dan status bar di HP-mu bisa sedikit berbeda.
+> Gambar di bagian ini dipotret langsung dari aplikasi yang berjalan dengan data contoh, bukan dari mockup desain, tetapi dari versi 1.0. Versi 2.0 menambah menu Poin dan Kunci (muncul bila dinyalakan di Pengaturan), bagian Shift di Laporan, dan kolom baru di beberapa halaman, jadi tampilannya sedikit berbeda. Font dan status bar di perangkatmu juga bisa berbeda.
 
 ### Beranda
 
@@ -143,6 +152,8 @@ Empat kartu singkat. Kartu terakhir berisi tombol saweran DANA, dan tombol yang 
 
 Atau buka halaman [Releases](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest) untuk melihat catatan tiap versi.
 
+### Android
+
 1. Unduh `raon.apk` dari tombol di atas, langsung dari HP.
 2. Buka berkas yang terunduh. Kalau Android bertanya soal "sumber tidak dikenal", izinkan untuk browser atau aplikasi file yang kamu pakai.
 3. Ketuk **Pasang**, lalu buka RAON.
@@ -150,7 +161,16 @@ Atau buka halaman [Releases](https://github.com/asammanis89/RAON-KASIR-PUBLIC/re
 
 Setelah terpasang, RAON memeriksa versi baru sendiri saat dibuka. Kalau ada, kamu tinggal pilih **Perbarui**.
 
-> RAON dibagikan sebagai APK di GitHub, bukan lewat Play Store. Itu sebabnya Android menampilkan peringatan saat memasang. Unduh hanya dari halaman ini.
+### Windows
+
+1. Unduh [`raon-windows.zip`](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon-windows.zip).
+2. Klik kanan zip-nya, pilih **Extract All**, lalu buka folder hasilnya.
+3. Jalankan `raon.exe`. Pustaka Visual C++ yang dibutuhkan sudah ikut di dalam folder.
+4. Kalau muncul peringatan biru "Windows protected your PC", klik **More info**, lalu **Run anyway**. Aplikasi ini belum bertanda tangan digital, jadi Windows memperingatkan setiap aplikasi baru seperti ini.
+
+Data tersimpan di folder data aplikasi di laptop. Untuk memperbarui, RAON membuka halaman unduhan di browser; tutup RAON, ekstrak zip yang baru ke folder yang sama, lalu jalankan lagi. Printer Bluetooth belum diuji di Windows.
+
+> RAON dibagikan lewat GitHub, bukan Play Store atau Microsoft Store. Itu sebabnya Android dan Windows menampilkan peringatan saat memasang. Unduh hanya dari halaman ini.
 
 ---
 
@@ -168,6 +188,12 @@ Setelah terpasang, RAON memeriksa versi baru sendiri saat dibuka. Kalau ada, kam
 
 **Tutup kasir**
 Di tab **Laporan**, ketuk **Tutup Kasir**, isi kas awal, dan lihat berapa uang yang seharusnya ada di laci.
+
+**Pakai barcode**
+Isi kolom Barcode di form produk, lalu pindai dengan scanner di layar Kasir. Di HP Android ada juga tombol kamera di kolom cari.
+
+**Pasang PIN**
+Buka **Pengaturan**, pilih **Akun dan PIN**, buat akun pemilik, dan simpan kode pemulihan yang tampil. Tambahkan akun kasir bila perlu.
 
 **Jaga datamu**
 Karena data hanya ada di HP, buat cadangan dari **Pengaturan** secara rutin. RAON mengingatkan kalau sudah lama belum dicadangkan.
@@ -191,19 +217,25 @@ Tidak untuk berjualan. Internet hanya dipakai untuk mengecek dan mengunduh versi
 <details>
 <summary><b>Di mana datanya disimpan?</b></summary>
 
-Di database di HP-mu. RAON tidak punya akun dan tidak punya server. Kalau HP hilang atau rusak, datanya ikut hilang, jadi buat cadangan dan simpan berkasnya di tempat lain.
+Di database di perangkatmu. RAON tidak punya akun dan tidak punya server. Kalau HP atau laptop hilang atau rusak, datanya ikut hilang, jadi buat cadangan dan simpan berkasnya di tempat lain.
 </details>
 
 <details>
 <summary><b>Printer apa yang didukung?</b></summary>
 
-Printer thermal Bluetooth 58mm dengan perintah ESC/POS. Beri tahu kalau printermu bermasalah supaya bisa dicek.
+Printer thermal Bluetooth 58mm dengan perintah ESC/POS, di HP Android. Di Windows belum diuji. Beri tahu kalau printermu bermasalah supaya bisa dicek.
 </details>
 
 <details>
 <summary><b>Bisa dipakai di iPhone?</b></summary>
 
-Belum. RAON hanya untuk Android.
+Belum. RAON untuk Android dan Windows.
+</details>
+
+<details>
+<summary><b>Lupa PIN?</b></summary>
+
+Pakai kode pemulihan yang tampil saat PIN pertama dibuat. Kalau kode itu juga hilang, datamu tidak bisa dibuka lewat aplikasi, jadi simpan kodenya di tempat aman. Ingat, PIN hanya pintu masuk aplikasi dan tidak mengenkripsi berkas data.
 </details>
 
 <details>
