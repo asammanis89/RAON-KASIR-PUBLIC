@@ -60,13 +60,20 @@ Banyak aplikasi kasir meminta akun, langganan bulanan, atau menampilkan iklan di
 
 Yang lebih rinci:
 
-- **Pembayaran:** tunai dengan tombol Uang Pas dan nominal cepat, QRIS, dan transfer. Kembalian dihitung otomatis.
-- **Keranjang:** diskon dalam rupiah atau persen, Item Bebas untuk barang yang belum terdaftar, dan Tahan untuk menyimpan transaksi sementara.
+- **Pembayaran:** tunai dengan tombol Uang Pas dan nominal yang mengikuti total (belanja 37.500 menawarkan 40.000, 50.000, 100.000), QRIS, dan transfer. Kembalian dihitung otomatis, dan total tunai bisa dibulatkan ke 100, 500, atau 1.000.
+- **Metode bayar tambahan:** tambahkan GoPay, ShopeePay, GrabFood, atau apa saja, lengkap dengan potongan persen (MDR atau komisi aplikasi). Potongannya mengurangi laba, bukan tagihan pembeli.
+- **Struk ke WhatsApp:** kirim struk sebagai teks ke nomor pelanggan, selain dibagikan sebagai PDF atau dicetak.
+- **Keranjang:** diskon transaksi dalam rupiah atau persen, harga khusus per barang (ketuk harganya), Item Bebas untuk barang yang belum terdaftar, dan Tahan untuk menyimpan transaksi sementara. Jumlah tidak bisa melebihi stok, dan produk yang habis ditandai merah.
+- **Pesanan warung makan:** beri nama atau nomor meja dan cara layanan (makan di tempat, bawa pulang, diantar) pada transaksi tahan, lalu cetak invoice dapur tanpa harga.
 - **Koreksi:** transaksi yang salah bisa dibatalkan. Omzet turun dan stok barangnya kembali.
-- **Stok:** boleh diisi, boleh dikosongkan kalau tidak perlu dilacak. Barang yang hampir habis diberi tanda.
-- **Laporan sesuai kebutuhan:** pilih Hari ini, Kemarin, 7 hari, Bulan ini, Bulan lalu, atau rentang tanggal sendiri; saring per metode bayar; lihat omzet, laba kotor, pengeluaran, laba bersih, rata-rata, jam paling ramai, penjualan per kategori, dan produk terjual. Bagikan sebagai PDF atau CSV untuk Excel.
-- **Pengeluaran:** catat es batu, listrik, plastik, atau biaya harian lain; laba bersih otomatis berkurang.
-- **Utang pelanggan:** pilih metode Utang dengan nama pelanggan, pantau di Piutang, lalu lunasi lewat tunai, QRIS, atau transfer. Struk menyebut nama dan status utang.
+- **Stok:** boleh diisi, boleh dikosongkan kalau tidak perlu dilacak. Barang yang hampir habis diberi tanda. Stok opname menghitung banyak barang sekaligus dan memperlihatkan selisihnya sebelum disesuaikan.
+- **Produk lengkap:** foto dari kamera atau galeri, kode barang otomatis, info untung dan markup, kategori yang bisa diganti nama atau digabung.
+- **Paket dan resep:** paket (misalnya Combo 1 berisi 3 dimsum dan 1 teh) atau resep bahan baku (es teh memakai 20 gram gula) memotong stok isinya setiap kali terjual. Bahan baku bisa disembunyikan dari layar kasir.
+- **Laporan sesuai kebutuhan:** pilih Hari ini, Kemarin, 7 hari, Bulan ini, Bulan lalu, atau rentang tanggal sendiri; saring per metode bayar atau per kasir; lihat laba rugi (pendapatan, harga pokok, laba kotor, pengeluaran, laba bersih), nilai persediaan, belanja stok, jam paling ramai, porsi tiap metode bayar dan kategori, dan produk terlaris. Bagikan sebagai PDF atau CSV untuk Excel.
+- **Uang keluar dan masuk:** catat es batu, listrik, plastik, atau biaya harian lain; laba bersih otomatis berkurang. Uang masuk di luar penjualan (titipan, tambahan kas laci) juga bisa dicatat dan ikut dihitung saat tutup kasir.
+- **Utang pelanggan:** pilih metode Utang dengan nama pelanggan dan jatuh tempo, pantau di Piutang (yang lewat jatuh tempo ditandai merah), terima cicilan atau pelunasan lewat tunai, QRIS, atau transfer, dan kirim tagihan lewat WhatsApp. Struk menyebut nama, sisa, dan jatuh tempo.
+- **Pelanggan:** daftar pelanggan dengan total belanja, sisa utang, dan nomor WhatsApp.
+- **Hutang ke pemasok:** restock bisa dibayar nanti dengan jatuh tempo, lalu dicicil atau dilunasi di menu Hutang Pemasok.
 - **Tutup Kasir:** kas awal, penjualan tunai, utang yang dilunasi tunai, pengeluaran, dan retur tunai dihitung jadi uang yang seharusnya ada di laci, lalu dibandingkan dengan hasil hitungmu.
 - **Pengingat:** notifikasi untuk tutup kasir tiap hari, stok hampir habis, utang yang menunggak, dan cadangan data. Dinyalakan sendiri di Pengaturan, semuanya mati secara bawaan.
 - **Barcode:** pindai dengan scanner USB atau Bluetooth (di HP maupun laptop), atau dengan kamera HP Android. Barcode yang belum terdaftar diberi tahu, bukan diabaikan.
