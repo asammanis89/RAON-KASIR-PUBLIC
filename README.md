@@ -4,9 +4,10 @@
 
 <br>
 
-<a href="https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon.apk">
-  <img src="docs/img/unduh.png" alt="Unduh RAON APK" width="420">
-</a>
+<a href="https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon.apk"><img src="docs/img/unduh-android.png" alt="Unduh RAON untuk HP Android (raon.apk)" width="400"></a>
+<a href="https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon-windows.zip"><img src="docs/img/unduh-windows.png" alt="Unduh RAON untuk laptop Windows (raon-windows.zip)" width="400"></a>
+
+<sub>Buka halaman ini dari HP untuk Android, dari laptop untuk Windows. Tombol langsung mengunduh versi terbaru.</sub>
 
 <br>
 
@@ -146,15 +147,23 @@ Empat kartu singkat. Kartu terakhir berisi tombol saweran DANA, dan tombol yang 
 
 ## Unduh dan pasang
 
-<a href="https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon.apk">
-  <img src="docs/img/unduh.png" alt="Unduh RAON APK" width="320">
-</a>
+<div align="center">
+
+<a href="https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon.apk"><img src="docs/img/unduh-android.png" alt="Unduh RAON untuk HP Android (raon.apk)" width="360"></a>
+<a href="https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon-windows.zip"><img src="docs/img/unduh-windows.png" alt="Unduh RAON untuk laptop Windows (raon-windows.zip)" width="360"></a>
+
+</div>
+
+| Perangkat | Berkas | Tautan langsung |
+|---|---|---|
+| HP Android | `raon.apk` | [Unduh APK](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon.apk) |
+| Laptop/PC Windows 10 atau 11 (64-bit) | `raon-windows.zip` | [Unduh ZIP](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon-windows.zip) |
 
 Atau buka halaman [Releases](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest) untuk melihat catatan tiap versi.
 
 ### Android
 
-1. Unduh `raon.apk` dari tombol di atas, langsung dari HP.
+1. Unduh `raon.apk` lewat tombol oranye di atas, langsung dari HP.
 2. Buka berkas yang terunduh. Kalau Android bertanya soal "sumber tidak dikenal", izinkan untuk browser atau aplikasi file yang kamu pakai.
 3. Ketuk **Pasang**, lalu buka RAON.
 4. Ikuti panduan empat kartu yang muncul saat pertama dibuka.
@@ -163,7 +172,7 @@ Setelah terpasang, RAON memeriksa versi baru sendiri saat dibuka. Kalau ada, kam
 
 ### Windows
 
-1. Unduh [`raon-windows.zip`](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon-windows.zip).
+1. Unduh `raon-windows.zip` lewat tombol hitam di atas, atau [tautan langsung ini](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest/download/raon-windows.zip). Kalau browser menahan unduhan karena jarang diunduh, buka daftar unduhan browser lalu pilih **Simpan** atau **Keep**.
 2. Klik kanan zip-nya, pilih **Extract All**, lalu buka folder hasilnya.
 3. Jalankan `raon.exe`. Pustaka Visual C++ yang dibutuhkan sudah ikut di dalam folder.
 4. Kalau muncul peringatan biru "Windows protected your PC", klik **More info**, lalu **Run anyway**. Aplikasi ini belum bertanda tangan digital, jadi Windows memperingatkan setiap aplikasi baru seperti ini.
