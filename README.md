@@ -85,7 +85,7 @@ Yang lebih rinci:
 
 RAON mengikuti ukuran layar. Di HP menunya ada di bilah bawah dengan lima tab dan penanda hijau di tab yang aktif. Di tablet dan laptop (misalnya Chromebook atau emulator) menunya pindah ke samping, daftar dibatasi lebarnya supaya tetap enak dibaca, dan layar Kasir menampilkan keranjang di sisi kanan.
 
-> Gambar di bagian ini dipotret langsung dari aplikasi yang berjalan dengan data contoh, bukan dari mockup desain, tetapi dari versi 1.0. Versi 2.0 menambah menu Poin dan Kunci (muncul bila dinyalakan di Pengaturan), bagian Shift di Laporan, dan kolom baru di beberapa halaman, jadi tampilannya sedikit berbeda. Font dan status bar di perangkatmu juga bisa berbeda.
+> Semua gambar di bagian ini dipotret langsung dari aplikasi versi 2.1 yang berjalan dengan data contoh, bukan dari mockup desain. Status bar di perangkatmu bisa sedikit berbeda.
 
 ### Beranda
 
