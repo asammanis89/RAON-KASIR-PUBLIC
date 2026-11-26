@@ -168,6 +168,8 @@ Empat kartu singkat. Kartu terakhir berisi tombol saweran DANA, dan tombol yang 
 
 Atau buka halaman [Releases](https://github.com/asammanis89/RAON-KASIR-PUBLIC/releases/latest) untuk melihat catatan tiap versi.
 
+> **Dapat berkas zip padahal mau APK?** Di halaman Releases, ketuk **raon.apk** di bagian *Assets*. Jangan ketuk **Source code (zip)** atau **Source code (tar.gz)**: keduanya kode program, bukan aplikasi, dan selalu ditambahkan GitHub ke setiap rilis. Tombol oranye di atas langsung mengunduh `raon.apk`.
+
 ### Android
 
 1. Unduh `raon.apk` lewat tombol oranye di atas, langsung dari HP.
